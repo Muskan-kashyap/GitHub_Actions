@@ -2,16 +2,16 @@ name: Second Workflow
 on: push
 jobs:
   hello-job:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Hello Again
-      run: echo "Hello This is My Second Workflow"
-
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Again
+        run: echo "Hello This is My Second Workflow"      
+  
   bye-job:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Bye Again
-      run: echo "Hello This is My Second Workflow"    
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bye Again
+        run: echo "Hello This is My Second Workflow"
 
 
   
